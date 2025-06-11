@@ -28,6 +28,10 @@
     font-size: 56.25%;
   }
 
+  .section-hero {
+    padding: 180px 0 4rem 0;
+  }
+
   .grid {
     column-gap: 4.8rem;
     row-gap: 6.4rem;
@@ -69,7 +73,7 @@
   }
 
   .section-hero {
-    padding: 180px 0 4.6rem 0;
+    padding: 180px 0 4rem 0;
   }
 
   .hero {
@@ -201,6 +205,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .section-hero {
+    padding: 180px 0 4rem 0;
+  }
+
   .diets {
     grid-column: 1 / -1;
     justify-self: center;
@@ -252,7 +260,7 @@
   }
 
   .section-hero {
-    padding: 140px 0 8rem 0;
+    padding: 140px 0 5rem 0;
   }
 
   .hero {
