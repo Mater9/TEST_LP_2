@@ -936,3 +936,16 @@
   align-self: end;
   padding: 1.2rem;
 }
+
+.pageclip-form__success {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  background-color: #e0ffd0;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
