@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
     <script
       type="module"
@@ -366,33 +367,23 @@
                 id praesentium assumenda temporibus.
               </p>
 
-              <form class="cta-form" name="sign-up" netlify>
+              <form class="cta-form pageclip-form" 
+                    action="https://send.pageclip.co/7QZONvlb0kHWWpJZUqdrKqV6QdoQapLe/contact" 
+                    method="post">
+
                 <div>
-                  <label for="full-name">Full Name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    placeholder="John Smith"
-                    name="full-name"
-                    required
-                  />
+                  <label for="name">Imię i nazwisko</label>
+                  <input id="name" type="text" name="name" placeholder="Jan Kowalski" required />
                 </div>
 
                 <div>
-                  <label for="email">Email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email"
-                    required
-                  />
+                  <label for="email">Adres e-mail</label>
+                  <input id="email" type="email" name="email" placeholder="me@example.com" required />
                 </div>
 
-                <button class="btn btn--form">Sign up now</button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
+                <button type="submit" class="btn btn--form pageclip-form__submit">
+                  <span>Zapisz się</span>
+                </button>
               </form>
             </div>
             <div
@@ -487,5 +478,6 @@
         </nav>
       </div>
     </footer>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
