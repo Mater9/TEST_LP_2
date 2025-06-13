@@ -482,8 +482,24 @@
 <script>
   const form = document.querySelector('.pageclip-form');
   Pageclip.form(form, {
-    successTemplate: '<div class="pageclip-form__success">Dziękuję za zapisanie się!</div>'
+    successTemplate: `
+      <div style="
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #333;
+        background-color: #e0ffd0;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        margin-top: 1.5rem;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      ">
+        Dziękuję za zapisanie się!
+      </div>
+    `
   });
 </script>
+
   </body>
 </html>
