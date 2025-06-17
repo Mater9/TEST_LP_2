@@ -662,6 +662,21 @@
           e.preventDefault();
           window.open(this.href, "_blank", "noopener,noreferrer");
         });
+
+      // Dodajemy obsługę linków mailto: i tel:
+      document
+        .querySelectorAll('a[href^="mailto:"], a[href^="tel:"]')
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+            if (href.startsWith("mailto:")) {
+              window.location.href = href;
+            } else if (href.startsWith("tel:")) {
+              window.location.href = href;
+            }
+          });
+        });
     </script>
   </body>
 </html>
