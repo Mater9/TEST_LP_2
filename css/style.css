@@ -260,14 +260,27 @@
 
 @media (max-width: 34em) {
   .step-description {
-    font-size: 21px;
-    line-height: 1.6;
-    padding: 0 1.6rem;
-    margin-bottom: 2.4rem;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    margin-right: 3.2rem;
   }
 
   .heading-tertiary {
-    font-size: 25px;
+    font-size: 22px;
+    padding: 0 2rem;
+    margin-right: 3.2rem;
+  }
+
+  .step-text-box {
+    padding: 0 2rem;
+    margin-right: 3.2rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+    margin-right: 3.2rem;
   }
 
   .pricing-text {
@@ -291,6 +304,31 @@
   .cta-text {
     font-size: 22px;
     line-height: 1.6;
+  }
+}
+
+@media (max-width: 23.5em) {
+  .step-description {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 1.6rem;
+    margin-right: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 20px;
+    padding: 0 1.6rem;
+    margin-right: 2.4rem;
+  }
+
+  .step-text-box {
+    padding: 0 1.6rem;
+    margin-right: 2.4rem;
+  }
+
+  .container {
+    padding: 0 1.6rem;
+    margin-right: 2.4rem;
   }
 }
 
