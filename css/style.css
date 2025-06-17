@@ -746,11 +746,22 @@
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  align-items: center;
 }
 
 .social-icon {
   height: 2.4rem;
   width: 2.4rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+  pointer-events: auto;
+}
+
+.social-icon:hover {
+  color: #f1e6a6;
+  transform: translateY(-2px);
 }
 
 .copyright {
@@ -783,17 +794,19 @@
   gap: 2.4rem;
 }
 
-.footer-link:link,
-.footer-link:visited {
+.footer-link {
   text-decoration: none;
   font-size: 1.6rem;
   color: #767676;
   transition: all 0.3s;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .footer-link:hover,
 .footer-link:active {
-  color: #555;
+  color: #f1e6a6;
 }
 
 /* AGENDA STYLES */
